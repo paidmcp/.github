@@ -1,6 +1,6 @@
 # PaidMCP
 
-Open infrastructure for monetizable MCP servers. Build MCPs that charge AI agents per call in USDT, powered by [x402](https://x402.org) and [Tether WDK](https://docs.wdk.tether.io).
+Open infrastructure for monetizable MCP servers. Build MCPs that charge AI agents per call in USDC (Base) or USDT0 (Plasma), powered by [x402](https://x402.org) and [Tether WDK](https://docs.wdk.tether.io).
 
 ## Repositories
 
@@ -11,10 +11,22 @@ Open infrastructure for monetizable MCP servers. Build MCPs that charge AI agent
 
 ## Quick start
 
-Users: install `paidmcp-client`, generate a wallet, fund with USDT0, and connect any listed MCP.
+### Users
 
-Builders: fork `template`, edit `src/tools.ts`, deploy, and submit to the directory.
+- Published flow: `npx paidmcp-client init`, `npx paidmcp-client wallet`, `npx paidmcp-client run <endpoint>`
+- From source flow: clone `client/`, then run `npm install`, `npm run build`, `npm run init`
 
-## License
+### Builders
 
-MIT
+- Fork `template`
+- Run `npm run wallet:create` and store the seed in `.env` (`SEED_PHRASE`)
+- Edit `src/tools.ts`, deploy, and submit to the directory
+
+Full onboarding: use the README files in the `client`, `template`, and `examples` repositories above.
+
+## Community
+
+- Contributing guide: see each repository `CONTRIBUTING.md`
+- Security reporting: see each repository `SECURITY.md`
+- Conduct expectations: see each repository `CODE_OF_CONDUCT.md`
+- License: MIT in each repository (`LICENSE`)
