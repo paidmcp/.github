@@ -8,6 +8,7 @@
 @keyframes nd{0%{opacity:1}35%,100%{opacity:0}}
 .rp{opacity:0;transform-box:fill-box;transform-origin:center;animation:rp 6s ease-out infinite}
 @keyframes rp{0%{opacity:.7;transform:scale(1)}30%,100%{opacity:0;transform:scale(3.2)}}
+.tt{animation:tt 6s linear infinite}@keyframes tt{0%{fill:#C8FF2E}40%,100%{fill:#EDEDED}}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style></defs>
 <rect x=".75" y=".75" width="998.5" height="218.5" rx="20" fill="#050505" stroke="#1F1F1F" stroke-width="1.5"/>
 <rect x="60" y="77.5" width="880" height="1" fill="url(#tr)"/>
@@ -18,24 +19,24 @@
 <circle cx="140" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
 <circle class="nd" style="animation-delay:0.49s" cx="140" cy="78" r="6.5" fill="#C8FF2E"/>
 <text x="140" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">01</text>
-<text x="140" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Agent calls a tool</text>
+<text class="tt" style="animation-delay:0.49s" x="140" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Agent calls a tool</text>
 <text x="140" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">tools/call → /mcp</text>
 <circle class="rp" style="animation-delay:1.95s" cx="380" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
 <circle cx="380" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
 <circle class="nd" style="animation-delay:1.95s" cx="380" cy="78" r="6.5" fill="#C8FF2E"/>
 <text x="380" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">02</text>
-<text x="380" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Server quotes a price</text>
+<text class="tt" style="animation-delay:1.95s" x="380" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Server quotes a price</text>
 <text x="380" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">HTTP 402 via x402</text>
 <circle class="rp" style="animation-delay:3.41s" cx="620" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
 <circle cx="620" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
 <circle class="nd" style="animation-delay:3.41s" cx="620" cy="78" r="6.5" fill="#C8FF2E"/>
 <text x="620" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">03</text>
-<text x="620" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Client pays per call</text>
+<text class="tt" style="animation-delay:3.41s" x="620" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Client pays per call</text>
 <text x="620" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">stablecoin settlement</text>
 <circle class="rp" style="animation-delay:4.87s" cx="860" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
 <circle cx="860" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
 <circle class="nd" style="animation-delay:4.87s" cx="860" cy="78" r="6.5" fill="#C8FF2E"/>
 <text x="860" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">04</text>
-<text x="860" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Result comes back</text>
+<text class="tt" style="animation-delay:4.87s" x="860" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Result comes back</text>
 <text x="860" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">200 OK</text>
 </svg>
