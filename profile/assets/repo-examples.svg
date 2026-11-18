@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 132" role="img" aria-label="paidmcp/examples: Flagship MCP server examples to learn from and build on.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1520"/><stop offset="1" stop-color="#070A0F"/></linearGradient><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#FFB547" stop-opacity="0"/><stop offset=".5" stop-color="#FFB547"/><stop offset="1" stop-color="#FFB547" stop-opacity="0"/></linearGradient>
+<clipPath id="cc"><rect width="440" height="132" rx="14"/></clipPath>
+<style>.sw{animation:sw 5s ease-in-out infinite}@keyframes sw{0%{transform:translateX(-200px)}60%,100%{transform:translateX(460px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style></defs>
+<rect x=".75" y=".75" width="438.5" height="130.5" rx="14" fill="url(#bg)" stroke="#1E2A3A" stroke-width="1.5"/>
+<g clip-path="url(#cc)"><rect class="sw" y="0" width="180" height="2" fill="url(#sw)"/></g>
+<rect x="20" y="20" width="44" height="44" rx="11" fill="#FFB547" fill-opacity=".1" stroke="#FFB547" stroke-opacity=".4"/>
+<g transform="translate(26 26)" fill="none" stroke="#FFB547" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 5l10 5.5v11L16 27 6 21.5v-11z"/><path d="M6 10.5L16 16l10-5.5M16 16v11"/></g>
+<text x="78" y="39" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#F2F6FA"><tspan fill="#8FA1B5" font-weight="400">paidmcp/</tspan>examples</text>
+<text x="78" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#FFB547">reference</text>
+<text x="20" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8FA1B5">Flagship MCP server examples</text>
+<text x="20" y="111" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8FA1B5">to learn from and build on.</text>
+<path d="M408 30l8 8-8 8" fill="none" stroke="#55667A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

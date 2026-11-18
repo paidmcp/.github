@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" role="img" aria-label="How a paid MCP call works: the agent calls a tool, the server quotes a price with HTTP 402, the client pays per call in stablecoins, and the result comes back">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1520"/><stop offset="1" stop-color="#070A0F"/></linearGradient><style>
+.st{animation:st 8s linear infinite}
+.s1{animation-delay:0s}.s2{animation-delay:2s}.s3{animation-delay:4s}.s4{animation-delay:6s}
+@keyframes st{0%{stroke-opacity:.15}4%,22%{stroke-opacity:1}28%,100%{stroke-opacity:.15}}
+.gl{opacity:0;animation:gl 8s linear infinite}
+@keyframes gl{0%{opacity:0}4%,22%{opacity:.1}28%,100%{opacity:0}}
+.wire{stroke-dasharray:3 6;animation:dash 1s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-18}}
+.tr{opacity:0;animation:tr 8s linear infinite}
+@keyframes tr{0%,17%{opacity:0;transform:translateX(0)}18%{opacity:1}25%{opacity:1;transform:translateX(34px)}26%,100%{opacity:0;transform:translateX(34px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style></defs>
+<rect x=".75" y=".75" width="998.5" height="198.5" rx="20" fill="url(#bg)" stroke="#1E2A3A" stroke-width="1.5"/>
+
+<g transform="translate(28 34)">
+<rect class="gl s1" width="218" height="132" rx="14" fill="#F2F6FA"/>
+<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
+<rect class="st s1" width="218" height="132" rx="14" fill="none" stroke="#F2F6FA" stroke-width="1.5"/>
+<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#F2F6FA">01</text>
+<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Agent calls a tool</text>
+<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">tools/call → /mcp</text>
+</g>
+<path class="wire" d="M246 100h24" stroke="#55667A" stroke-width="2"/><g transform="translate(241 100)"><circle class="tr s1" r="5" fill="#F2F6FA"/></g>
+<g transform="translate(270 34)">
+<rect class="gl s2" width="218" height="132" rx="14" fill="#FFB547"/>
+<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
+<rect class="st s2" width="218" height="132" rx="14" fill="none" stroke="#FFB547" stroke-width="1.5"/>
+<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#FFB547">02</text>
+<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Server quotes a price</text>
+<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">HTTP 402 via x402</text>
+</g>
+<path class="wire" d="M488 100h24" stroke="#55667A" stroke-width="2"/><g transform="translate(483 100)"><circle class="tr s2" r="5" fill="#FFB547"/></g>
+<g transform="translate(512 34)">
+<rect class="gl s3" width="218" height="132" rx="14" fill="#3DFFA8"/>
+<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
+<rect class="st s3" width="218" height="132" rx="14" fill="none" stroke="#3DFFA8" stroke-width="1.5"/>
+<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#3DFFA8">03</text>
+<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Client pays per call</text>
+<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">stablecoin settlement</text>
+</g>
+<path class="wire" d="M730 100h24" stroke="#55667A" stroke-width="2"/><g transform="translate(725 100)"><circle class="tr s3" r="5" fill="#3DFFA8"/></g>
+<g transform="translate(754 34)">
+<rect class="gl s4" width="218" height="132" rx="14" fill="#22D3EE"/>
+<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
+<rect class="st s4" width="218" height="132" rx="14" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
+<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#22D3EE">04</text>
+<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Result comes back</text>
+<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">200 OK</text>
+</g>
+
+</svg>
