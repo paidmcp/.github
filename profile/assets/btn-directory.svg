@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224 40" width="224" height="40" role="img" aria-label="Browse the directory">
+<rect x="1" y="1" width="222" height="38" rx="19" fill="#C8FF2E" stroke="#C8FF2E" stroke-width="1.5"/>
+<text x="103" y="25" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="14" letter-spacing="-.1" fill="#050505">Browse the directory</text>
+<path d="M191 20h13m-5-5 5 5-5 5" fill="none" stroke="#050505" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

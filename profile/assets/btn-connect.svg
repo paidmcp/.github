@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 40" width="166" height="40" role="img" aria-label="Connect guide">
+<rect x="1" y="1" width="164" height="38" rx="19" fill="#050505" stroke="#2E2E2E" stroke-width="1.5"/>
+<text x="74" y="25" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="14" letter-spacing="-.1" fill="#EDEDED">Connect guide</text>
+<path d="M133 20h13m-5-5 5 5-5 5" fill="none" stroke="#8A8A8A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
