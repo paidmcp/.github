@@ -1,51 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" role="img" aria-label="How a paid MCP call works: the agent calls a tool, the server quotes a price with HTTP 402, the client pays per call in stablecoins, and the result comes back">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1520"/><stop offset="1" stop-color="#070A0F"/></linearGradient><style>
-.st{animation:st 8s linear infinite}
-.s1{animation-delay:0s}.s2{animation-delay:2s}.s3{animation-delay:4s}.s4{animation-delay:6s}
-@keyframes st{0%{stroke-opacity:.15}4%,22%{stroke-opacity:1}28%,100%{stroke-opacity:.15}}
-.gl{opacity:0;animation:gl 8s linear infinite}
-@keyframes gl{0%{opacity:0}4%,22%{opacity:.1}28%,100%{opacity:0}}
-.wire{stroke-dasharray:3 6;animation:dash 1s linear infinite}
-@keyframes dash{to{stroke-dashoffset:-18}}
-.tr{opacity:0;animation:tr 8s linear infinite}
-@keyframes tr{0%,17%{opacity:0;transform:translateX(0)}18%{opacity:1}25%{opacity:1;transform:translateX(34px)}26%,100%{opacity:0;transform:translateX(34px)}}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" role="img" aria-label="How a paid MCP call works: the agent calls a tool, the server quotes a price with HTTP 402, the client pays per call in stablecoins, and the result comes back">
+<defs><filter id="glow" x="-10%" y="-400%" width="120%" height="900%"><feGaussianBlur stdDeviation="4"/></filter>
+<linearGradient id="tr" x1="0" x2="1"><stop offset="0" stop-color="#1F1F1F" stop-opacity="0"/><stop offset=".08" stop-color="#2E2E2E"/><stop offset=".92" stop-color="#2E2E2E"/><stop offset="1" stop-color="#1F1F1F" stop-opacity="0"/></linearGradient>
+<style>
+.cm{stroke-dasharray:12 100;stroke-dashoffset:12;animation:cm 6s linear infinite}
+@keyframes cm{to{stroke-dashoffset:-100}}
+.nd{opacity:0;animation:nd 6s linear infinite}
+@keyframes nd{0%{opacity:1}35%,100%{opacity:0}}
+.rp{opacity:0;transform-box:fill-box;transform-origin:center;animation:rp 6s ease-out infinite}
+@keyframes rp{0%{opacity:.7;transform:scale(1)}30%,100%{opacity:0;transform:scale(3.2)}}
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style></defs>
-<rect x=".75" y=".75" width="998.5" height="198.5" rx="20" fill="url(#bg)" stroke="#1E2A3A" stroke-width="1.5"/>
+<rect x=".75" y=".75" width="998.5" height="218.5" rx="20" fill="#050505" stroke="#1F1F1F" stroke-width="1.5"/>
+<rect x="60" y="77.5" width="880" height="1" fill="url(#tr)"/>
+<path class="cm" d="M60 78H940" pathLength="100" stroke="#C8FF2E" stroke-width="6" stroke-linecap="round" filter="url(#glow)" opacity=".8"/>
+<path class="cm" d="M60 78H940" pathLength="100" stroke="#C8FF2E" stroke-width="2" stroke-linecap="round"/>
 
-<g transform="translate(28 34)">
-<rect class="gl s1" width="218" height="132" rx="14" fill="#F2F6FA"/>
-<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
-<rect class="st s1" width="218" height="132" rx="14" fill="none" stroke="#F2F6FA" stroke-width="1.5"/>
-<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#F2F6FA">01</text>
-<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Agent calls a tool</text>
-<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">tools/call → /mcp</text>
-</g>
-<path class="wire" d="M246 100h24" stroke="#55667A" stroke-width="2"/><g transform="translate(241 100)"><circle class="tr s1" r="5" fill="#F2F6FA"/></g>
-<g transform="translate(270 34)">
-<rect class="gl s2" width="218" height="132" rx="14" fill="#FFB547"/>
-<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
-<rect class="st s2" width="218" height="132" rx="14" fill="none" stroke="#FFB547" stroke-width="1.5"/>
-<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#FFB547">02</text>
-<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Server quotes a price</text>
-<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">HTTP 402 via x402</text>
-</g>
-<path class="wire" d="M488 100h24" stroke="#55667A" stroke-width="2"/><g transform="translate(483 100)"><circle class="tr s2" r="5" fill="#FFB547"/></g>
-<g transform="translate(512 34)">
-<rect class="gl s3" width="218" height="132" rx="14" fill="#3DFFA8"/>
-<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
-<rect class="st s3" width="218" height="132" rx="14" fill="none" stroke="#3DFFA8" stroke-width="1.5"/>
-<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#3DFFA8">03</text>
-<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Client pays per call</text>
-<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">stablecoin settlement</text>
-</g>
-<path class="wire" d="M730 100h24" stroke="#55667A" stroke-width="2"/><g transform="translate(725 100)"><circle class="tr s3" r="5" fill="#3DFFA8"/></g>
-<g transform="translate(754 34)">
-<rect class="gl s4" width="218" height="132" rx="14" fill="#22D3EE"/>
-<rect width="218" height="132" rx="14" fill="none" stroke="#1E2A3A" stroke-width="1.5"/>
-<rect class="st s4" width="218" height="132" rx="14" fill="none" stroke="#22D3EE" stroke-width="1.5"/>
-<text x="20" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="13" fill="#22D3EE">04</text>
-<text x="20" y="76" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-weight="700" font-size="17" fill="#F2F6FA">Result comes back</text>
-<text x="20" y="104" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" fill="#8FA1B5">200 OK</text>
-</g>
-
+<circle class="rp" style="animation-delay:0.49s" cx="140" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
+<circle cx="140" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
+<circle class="nd" style="animation-delay:0.49s" cx="140" cy="78" r="6.5" fill="#C8FF2E"/>
+<text x="140" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">01</text>
+<text x="140" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Agent calls a tool</text>
+<text x="140" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">tools/call → /mcp</text>
+<circle class="rp" style="animation-delay:1.95s" cx="380" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
+<circle cx="380" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
+<circle class="nd" style="animation-delay:1.95s" cx="380" cy="78" r="6.5" fill="#C8FF2E"/>
+<text x="380" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">02</text>
+<text x="380" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Server quotes a price</text>
+<text x="380" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">HTTP 402 via x402</text>
+<circle class="rp" style="animation-delay:3.41s" cx="620" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
+<circle cx="620" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
+<circle class="nd" style="animation-delay:3.41s" cx="620" cy="78" r="6.5" fill="#C8FF2E"/>
+<text x="620" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">03</text>
+<text x="620" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Client pays per call</text>
+<text x="620" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">stablecoin settlement</text>
+<circle class="rp" style="animation-delay:4.87s" cx="860" cy="78" r="7" fill="none" stroke="#C8FF2E" stroke-width="1.5"/>
+<circle cx="860" cy="78" r="6.5" fill="#050505" stroke="#555555" stroke-width="1.5"/>
+<circle class="nd" style="animation-delay:4.87s" cx="860" cy="78" r="6.5" fill="#C8FF2E"/>
+<text x="860" y="44" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">04</text>
+<text x="860" y="130" text-anchor="middle" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="600" font-size="17" letter-spacing="-.3" fill="#EDEDED">Result comes back</text>
+<text x="860" y="156" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="12" fill="#8A8A8A">200 OK</text>
 </svg>

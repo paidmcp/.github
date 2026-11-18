@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 132" role="img" aria-label="paidmcp/examples: Flagship MCP server examples to learn from and build on.">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1520"/><stop offset="1" stop-color="#070A0F"/></linearGradient><linearGradient id="sw" x1="0" x2="1"><stop offset="0" stop-color="#FFB547" stop-opacity="0"/><stop offset=".5" stop-color="#FFB547"/><stop offset="1" stop-color="#FFB547" stop-opacity="0"/></linearGradient>
-<clipPath id="cc"><rect width="440" height="132" rx="14"/></clipPath>
-<style>.sw{animation:sw 5s ease-in-out infinite}@keyframes sw{0%{transform:translateX(-200px)}60%,100%{transform:translateX(460px)}}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style></defs>
-<rect x=".75" y=".75" width="438.5" height="130.5" rx="14" fill="url(#bg)" stroke="#1E2A3A" stroke-width="1.5"/>
-<g clip-path="url(#cc)"><rect class="sw" y="0" width="180" height="2" fill="url(#sw)"/></g>
-<rect x="20" y="20" width="44" height="44" rx="11" fill="#FFB547" fill-opacity=".1" stroke="#FFB547" stroke-opacity=".4"/>
-<g transform="translate(26 26)" fill="none" stroke="#FFB547" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 5l10 5.5v11L16 27 6 21.5v-11z"/><path d="M6 10.5L16 16l10-5.5M16 16v11"/></g>
-<text x="78" y="39" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="15" font-weight="700" fill="#F2F6FA"><tspan fill="#8FA1B5" font-weight="400">paidmcp/</tspan>examples</text>
-<text x="78" y="58" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" fill="#FFB547">reference</text>
-<text x="20" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8FA1B5">Flagship MCP server examples</text>
-<text x="20" y="111" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8FA1B5">to learn from and build on.</text>
-<path d="M408 30l8 8-8 8" fill="none" stroke="#55667A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 188" role="img" aria-label="paidmcp/examples: Flagship MCP server examples to learn from and build on.">
+<defs><radialGradient id="c" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<style>
+.sh{animation:sh 3.600s ease-in-out infinite}@keyframes sh{0%,100%{fill:#2E2E2E}12%{fill:#6a6a6a}30%{fill:#2E2E2E}}
+.tw{opacity:0;animation:tw 4.900s ease-in-out infinite}@keyframes tw{0%,100%{opacity:0}10%,24%{opacity:1}40%{opacity:0}}
+.cap{transform-origin:left;animation:cap 5s cubic-bezier(.3,0,.2,1) infinite}@keyframes cap{0%{transform:scaleX(0)}70%,88%{transform:scaleX(.72);opacity:1}100%{transform:scaleX(.72);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style></defs>
+<rect x=".75" y=".75" width="373.5" height="186.5" rx="18" fill="#050505" stroke="#1F1F1F" stroke-width="1.5"/>
+<rect x=".75" y=".75" width="373.5" height="186.5" rx="18" fill="url(#c)"/>
+<text x="24" y="38" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="11" letter-spacing="1.5" fill="#555555">REFERENCE</text>
+<text x="24" y="86" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-weight="650" font-size="32" letter-spacing="-1.2" fill="#EDEDED">examples<tspan fill="#C8FF2E" dx="6" font-size="20" dy="-2">↗</tspan></text>
+<text x="24" y="114" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8A8A8A">Flagship MCP server examples</text><text x="24" y="133" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13.5" fill="#8A8A8A">to learn from and build on.</text>
+<g transform="translate(303 28)"><rect x="0" width="12" height="12" rx="3" fill="#2E2E2E"/><rect class="tw" style="animation-delay:0s;animation-duration:3.600s" x="0" width="12" height="12" rx="3" fill="#C8FF2E"/><rect x="18" width="12" height="12" rx="3" fill="#2E2E2E"/><rect class="tw" style="animation-delay:1.2s;animation-duration:3.600s" x="18" width="12" height="12" rx="3" fill="#C8FF2E"/><rect x="36" width="12" height="12" rx="3" fill="#2E2E2E"/><rect class="tw" style="animation-delay:2.4s;animation-duration:3.600s" x="36" width="12" height="12" rx="3" fill="#C8FF2E"/></g>
 </svg>

@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://paidmcp.dev">
-    <img src="./assets/hero.svg" width="100%" alt="PaidMCP: open infrastructure for monetizable MCP servers. Agents connect, pay per call, and settle in stablecoins.">
+    <img src="./assets/hero.svg" width="100%" alt="PaidMCP: MCP servers that get paid per call. Native MCP + x402. Free on testnet, stablecoins when you go live.">
   </a>
 </p>
 
@@ -13,40 +13,41 @@
 </p>
 
 <p align="center">
+  Open infrastructure for monetizable MCP servers.<br>
   Build native MCP + x402 servers that AI agents connect to directly,<br>
   with a free testnet onboarding path and pay-per-call stablecoin settlement.
 </p>
 
-<img src="./assets/divider.svg" width="100%" height="8" alt="">
+<br>
 
-## How it works
+<img src="./assets/label-how.svg" height="24" alt="How it works">
 
 <p align="center">
   <img src="./assets/flow.svg" width="100%" alt="The agent calls a tool, the server quotes a price with HTTP 402, the client pays per call in stablecoins, and the result comes back.">
 </p>
 
-Every paid call is a normal MCP tool call with a price attached. No accounts, no API keys to hand out, no invoices: the agent pays for what it uses, when it uses it.
+<br>
 
-## Repositories
-
-<p align="center">
-  <a href="https://github.com/paidmcp/template"><img src="./assets/repo-template.svg" width="49%" alt="paidmcp/template: forkable native MCP + x402 server template, free testnet first"></a>
-  <a href="https://github.com/paidmcp/client"><img src="./assets/repo-client.svg" width="49%" alt="paidmcp/client: optional managed wallet proxy with spending caps and confirmations"></a>
-</p>
-<p align="center">
-  <a href="https://github.com/paidmcp/examples"><img src="./assets/repo-examples.svg" width="49%" alt="paidmcp/examples: flagship MCP server examples"></a>
-  <a href="https://github.com/paidmcp/directory"><img src="./assets/repo-directory.svg" width="49%" alt="paidmcp/directory: source for paidmcp.dev"></a>
-</p>
-
-## Quick start
+<img src="./assets/label-repos.svg" height="24" alt="Repositories">
 
 <p align="center">
-  <img src="./assets/term-users.svg" width="49%" alt="Users: npx paidmcp-client init, npx paidmcp-client wallet, then connect with a snippet from paidmcp.dev">
-  <img src="./assets/term-builders.svg" width="49%" alt="Builders: fork the template, npm run setup, edit src/tools.ts, deploy and submit to the directory">
+  <a href="https://github.com/paidmcp/template"><img src="./assets/repo-template.svg" width="61%" alt="paidmcp/template: forkable native MCP + x402 server template, free testnet first"></a>
+  <a href="https://github.com/paidmcp/client"><img src="./assets/repo-client.svg" width="37.5%" alt="paidmcp/client: optional managed wallet proxy with spending caps and confirmations"></a>
+  <a href="https://github.com/paidmcp/examples"><img src="./assets/repo-examples.svg" width="37.5%" alt="paidmcp/examples: flagship MCP server examples"></a>
+  <a href="https://github.com/paidmcp/directory"><img src="./assets/repo-directory.svg" width="61%" alt="paidmcp/directory: source for paidmcp.dev"></a>
 </p>
 
-<details open>
-<summary><b>For users</b>: connect an agent to paid MCP servers</summary>
+<br>
+
+<img src="./assets/label-start.svg" height="24" alt="Quick start">
+
+<p align="center">
+  <img src="./assets/start-users.svg" width="49.25%" alt="Users: npx paidmcp-client init, npx paidmcp-client wallet, then connect with a snippet from paidmcp.dev">
+  <img src="./assets/start-builders.svg" width="49.25%" alt="Builders: fork the template, npm run setup, edit src/tools.ts, deploy and submit to the directory">
+</p>
+
+<details>
+<summary><b>Users</b>: copyable steps</summary>
 <br>
 
 **Managed wallet flow (recommended)**
@@ -70,7 +71,7 @@ Start on testnet first, then move to live stablecoins when you are ready.
 </details>
 
 <details>
-<summary><b>For builders</b>: ship a server that gets paid</summary>
+<summary><b>Builders</b>: copyable steps</summary>
 <br>
 
 1. Fork [`template`](https://github.com/paidmcp/template).
@@ -84,21 +85,15 @@ Start on testnet first, then move to live stablecoins when you are ready.
 
 </details>
 
-Full onboarding lives in the README of [`client`](https://github.com/paidmcp/client), [`template`](https://github.com/paidmcp/template), and [`examples`](https://github.com/paidmcp/examples).
-
-## Community
-
-| | |
-| :-- | :-- |
-| **Contributing** | See `CONTRIBUTING.md` in each repository |
-| **Security** | Report through `SECURITY.md` in the affected repository |
-| **Conduct** | See `CODE_OF_CONDUCT.md` in each repository |
-| **License** | MIT in every repository |
-
-<img src="./assets/divider.svg" width="100%" height="8" alt="">
+<br>
 
 <p align="center">
-  <a href="https://paidmcp.dev"><img src="./assets/logo.svg" width="56" alt="PaidMCP logo"></a>
-  <br>
-  <sub><a href="https://paidmcp.dev">paidmcp.dev</a> · native MCP + x402 · pay-per-call · testnet first</sub>
+  <a href="https://paidmcp.dev"><img src="./assets/logo.svg" width="44" alt="PaidMCP logo"></a>
+</p>
+<p align="center">
+  <sub>
+    <a href="https://paidmcp.dev">paidmcp.dev</a> ·
+    Contributing, security and conduct notes live in each repository ·
+    MIT licensed
+  </sub>
 </p>
